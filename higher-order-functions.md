@@ -1,4 +1,6 @@
-// Abstracting array traversal
+# Higher-order functions
+
+### Abstracting array traversal
 
 ```javascript
 function forEach(array, action) {
@@ -7,10 +9,12 @@ function forEach(array, action) {
 	}
 }
 ```
+The above function is already available as a method on all arrays
 
-// The above function is already available as a method on all arrays
+```javascript
 array.forEach(function(item) { 
 	// do something 
 })
+```
 
-// Higher-order functions operate on other functions - either by taking them as arguments or 
+Higher-order functions operate on other functions - either by taking them as arguments or 
